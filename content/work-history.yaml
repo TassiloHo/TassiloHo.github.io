@@ -1,18 +1,46 @@
-- company: Atomic Studio
-  position: Senior Web Developer
-  period: January 2018 - present
-  url: https://atomic.studio
+- company: Kenbun IT AG
+  position: Machine Learning Engineer
+  period: July 2024 - October 2025
+  url: https://kenbun.de
+  details: |
+    Developed ML models for production
+    Led data pipeline optimization
+    Mentored junior data scientists
 
-- company: Atomic Studio
-  position: Web Developer
-  period: January 2014 - December 2017
-  url: https://atomic.studio
+- company: Kenbun IT AG
+  position: Data Scientist - Working Student
+  period: May 2023 - June 2024
+  url: https://kenbun.de
+  details: |
+    Built predictive analytics solutions
+    Data preprocessing and feature engineering
+    Created visualization dashboards
 
-- company: WebConnect Agency
-  position: Junior Web Developer
-  period: November 2010 - December 2013
-  url:
+- company: KIT Institute of Production Sciences
+  position: Student Researcher
+  period: June 2022 - January 2023
+  url: https://www.wbk.kit.edu/index.php
+  details: |
+    Research on production optimization
+    Data analysis and modeling
+    Published research findings
 
-- company: Freelance
-  position: Web Developer
-  period: April 2008 - October 2010
+
+- company: BMW Motorcycles
+  position: Intern - Data Science
+  period: October 2020 - March 2021
+  url: https://www.bmw-motorrad.de/de/home.html#/filter-alle
+  details: |
+    Market analysis and forecasting
+    Customer segmentation models
+    Process automation scripts
+
+
+- company: KIT Institute of Economics
+  position: Tutor for Microeconomics
+  period: October 2018 - March 2019
+  url: https://www.econ.kit.edu/index.php
+  details: |
+    Taught weekly tutorial sessions
+    Exam preparation and grading
+    One-on-one student support

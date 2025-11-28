@@ -1,16 +1,23 @@
 ---
-import { SITE } from '$/config'
-import BaseHead from '$/components/BaseHead.astro';
-import MainLayout from '$/components/MainLayout.astro';
+import { SITE } from "$/config";
+import BaseHead from "$/components/BaseHead.astro";
+import MainLayout from "$/components/MainLayout.astro";
 
-const { content } = Astro.props
+const { content } = Astro.props;
 ---
+
 <!doctype html>
 <html lang="en">
     <head>
-        <BaseHead title={ content.title ? `${ SITE.title } | ${content.title}` : SITE.title } description={ content.description } profile={content.profile}/>
+        <BaseHead
+            title={content.title
+                ? `${SITE.title} | ${content.title}`
+                : SITE.title}
+            description={content.description}
+            profile={content.profile}
+        />
     </head>
-    <MainLayout>
+    <MainLayout social={content.profile?.social}>
         <slot />
     </MainLayout>
 </html>

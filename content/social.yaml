@@ -1,8 +1,8 @@
 - name: linkedin
-  url: https://linkedin.com/in/one-aalam
+  url: https://www.linkedin.com/in/tassilo-holtzwart-6332a2249/
 
 - name: twitter
-  url: https://twitter.com/aftabbuddy
+  url:
 
 - name: facebook
   url:
@@ -20,7 +20,7 @@
   url:
 
 - name: github
-  url: https://github.com/one-aalam
+  url: https://github.com/TassiloHo
 
 - name: goodreads
   url:
@@ -30,3 +30,6 @@
 
 - name: medium
   url:
+
+- name: huggingface
+  url: https://huggingface.co/Warholt

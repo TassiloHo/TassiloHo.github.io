@@ -1,21 +1,23 @@
 ---
-import BaseLayout from './BaseLayout.astro';
-import Header from './Header.astro';
-import Footer from './Footer.astro';
+import BaseLayout from "./BaseLayout.astro";
+import Header from "./Header.astro";
+import Footer from "./Footer.astro";
 
+const { social } = Astro.props;
 ---
+
 <BaseLayout>
-    <br class="my-4"/>
-    <Header/>
+    <br class="my-4" />
+    <Header social={social} />
     <div class="content">
         <slot />
     </div>
-    <br class="my-4"/>
-    <Footer/>
+    <br class="my-4" />
+    <Footer />
 </BaseLayout>
 
 <style>
     .content {
-        min-height: 580px
+        min-height: 580px;
     }
 </style>

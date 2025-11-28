@@ -1,11 +1,10 @@
 const { fontFamily } = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
-const theme = require('./themes/purple')
+const theme = require('./themes/indigo')
 
 module.exports = {
-    mode: 'jit',
     darkMode: 'class',
-    purge: ['./public/**/*.html', './src/**/*.{astro,js,ts}'],
+    content: ['./public/**/*.html', './src/**/*.{astro,js,jsx,ts,tsx,svelte,vue}'],
     theme: {
         colors: {
             ...colors,
@@ -23,7 +22,6 @@ module.exports = {
     plugins: [
         require('@tailwindcss/typography'),
         require('@tailwindcss/forms'),
-        require('@tailwindcss/line-clamp'),
         require('@tailwindcss/aspect-ratio'),
     ]
 };

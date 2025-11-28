@@ -1,21 +1,46 @@
-- name: Astro - Ink
-  url: https://github.com/one-aalam/astro-ink
-  description: Astro Ink is a minimal theme created to serve minimalistic markdown-based blog needs. It ships with almost all the basic Astro components that you might need while creating light-weight, performant, personal blogs, that focus on shipping less Javascript by default..
-  status: live
-  tags:
-    - blog
-    - minimal
-    - dark mode
-  icon: github
-  image: https://raw.githubusercontent.com/one-aalam/astro-ink/main/public/astro-banner.png
+- name: CaroTTS
+  url: https://github.com/TassiloHo/CaroTTS
+  description: |
+    CaroTTs is a text-to-speech synthesis system built with a focus on high-quality, natural-sounding speech. It leverages advanced deep learning techniques to produce expressive and context-aware speech output while being deployable on edge devices.
 
-- name: Astro - Ink
-  url: https://github.com/one-aalam/astro-ink
-  description: Astro Ink is a minimal theme created to serve minimalistic markdown-based blog needs. It ships with almost all the basic Astro components that you might need while creating light-weight, performant, personal blogs, that focus on shipping less Javascript by default..
+    Try the live demo at the bottom of this page!
   status: live
   tags:
-    - blog
-    - minimal
-    - dark mode
+    - TTS
+    - speech synthesis
+    - deep learning
+  icon: github
+  image: /CaroTTS.png
+  iframe: https://warholt-carotts-de.hf.space
+
+- name: Master Thesis
+  url: /documents/master-thesis.pdf
+  description: Master's thesis on [Your Topic]. Full thesis PDF available for download.
+  status: completed
+  tags:
+    - research
+    - thesis
+    - machine learning
+  icon: github
+  image:
+
+- name: Bachelor Thesis
+  url: /documents/bachelor-thesis.pdf
+  description: Bachelor's thesis on [Your Topic]. Full thesis PDF available for download.
+  status: completed
+  tags:
+    - research
+    - thesis
+  icon: github
+  image:
+
+- name: Road Safety Prediction
+  url: https://github.com/TassiloHo/Kaggle-Road-Accident-Risk-Prediction
+  description: A machine learning project for predicting road accident risk using Kaggle datasets. Implements various ML techniques to analyze factors contributing to traffic accidents and predict accident severity.
+  status: live
+  tags:
+    - machine learning
+    - data science
+    - kaggle
   icon: github
   image: https://raw.githubusercontent.com/one-aalam/astro-ink/main/public/astro-banner.png
