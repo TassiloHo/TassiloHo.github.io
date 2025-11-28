@@ -34,7 +34,6 @@ const schema = {
         name: profile.company,
     },
 };
-const scriptLdJson = `<script type="application/ld+json">${JSON.stringify(schema)}</script>`;
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -82,4 +81,4 @@ const scriptLdJson = `<script type="application/ld+json">${JSON.stringify(schema
 <!-- Link to the global style, or the file that imports TailwindCSS constructs -->
 <link rel="stylesheet" href="/style/global.css" />
 
-{scriptLdJson}
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
